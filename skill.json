@@ -1,0 +1,163 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-CA": {
+          "summary": "The No1 Radio Station For The High Peak",
+          "examplePhrases": [
+            "Alexa, Open Whaley Radio",
+            "Alexa, Start Whaley Radio",
+            "Alexa, Launch Whaley Radio"
+          ],
+          "keywords": [
+            "music",
+            "radio",
+            "stream",
+            "station",
+            "local",
+            "high",
+            "peak",
+            "UK",
+            "FM"
+          ],
+          "name": "Whaley Radio",
+          "description": "The No1 radio station for the high peak and beyond. Broadcasting 24 hours a day, 7 days a week. \n\nTo start, just say \"Alexa, play Whaley Radio\" or \"Alexa, start Whaley Radio\" to start the radio\".\n\nAt any time, you can stop the radio by saying \"Alexa, Stop.\"",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-US": {
+          "summary": "The No1 Radio Station For The High Peak",
+          "examplePhrases": [
+            "Alexa, Open Whaley Radio",
+            "Alexa, Start Whaley Radio",
+            "Alexa, Launch Whaley Radio"
+          ],
+          "keywords": [
+            "music",
+            "radio",
+            "stream",
+            "station",
+            "local",
+            "high",
+            "peak",
+            "UK",
+            "FM"
+          ],
+          "name": "Whaley Radio",
+          "description": "The No1 radio station for the high peak and beyond. Broadcasting 24 hours a day, 7 days a week. \n\nTo start, just say \"Alexa, play Whaley Radio\" or \"Alexa, start Whaley Radio\" to start the radio\".\n\nAt any time, you can stop the radio by saying \"Alexa, Stop.\"",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "The No1 Radio Station For The High Peak",
+          "examplePhrases": [
+            "Alexa, Open Whaley Radio",
+            "Alexa, Start Whaley Radio",
+            "Alexa, Launch Whaley Radio"
+          ],
+          "keywords": [
+            "music",
+            "radio",
+            "stream",
+            "station",
+            "local",
+            "high",
+            "peak",
+            "UK",
+            "FM"
+          ],
+          "name": "Whaley Radio",
+          "description": "The No1 radio station for the high peak and beyond. Broadcasting 24 hours a day, 7 days a week. \n\nTo start, just say \"Alexa, play Whaley Radio\" or \"Alexa, start Whaley Radio\" to start the radio\".\n\nAt any time, you can stop the radio by saying \"Alexa, Stop.\"",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "The No1 Radio Station For The High Peak",
+          "examplePhrases": [
+            "Alexa, Open Whaley Radio",
+            "Alexa, Start Whaley Radio",
+            "Alexa, Launch Whaley Radio"
+          ],
+          "keywords": [
+            "music",
+            "radio",
+            "stream",
+            "station",
+            "local",
+            "high",
+            "peak",
+            "UK",
+            "FM"
+          ],
+          "name": "Whaley Radio",
+          "description": "The No1 radio station for the high peak and beyond. Broadcasting 24 hours a day, 7 days a week. \n\nTo start, just say \"Alexa, play Whaley Radio\" or \"Alexa, start Whaley Radio\" to start the radio\".\n\nAt any time, you can stop the radio by saying \"Alexa, Stop.\"",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "The No1 Radio Station For The High Peak",
+          "examplePhrases": [
+            "Alexa, Open Whaley Radio",
+            "Alexa, Start Whaley Radio",
+            "Alexa, Launch Whaley Radio"
+          ],
+          "keywords": [
+            "music",
+            "radio",
+            "stream",
+            "station",
+            "local",
+            "high",
+            "peak",
+            "UK",
+            "FM"
+          ],
+          "name": "Whaley Radio",
+          "description": "The No1 radio station for the high peak and beyond. Broadcasting 24 hours a day, 7 days a week. \n\nTo start, just say \"Alexa, play Whaley Radio\" or \"Alexa, start Whaley Radio\" to start the radio\".\n\nAt any time, you can stop the radio by saying \"Alexa, Stop.\"",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Permission letter from Mark Hesselwood:\\nhttps://drive.google.com/file/d/1pl-CzoyHwwBKn0p5VSiI-0s8DMvFi8OG/view?usp\u003dsharing\"}",
+      "category": "RADIO",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:271396054455:function:9e14a17a-80be-4f84-affa-20b80c3e50d1:Release_2"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-CA": {},
+        "en-US": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

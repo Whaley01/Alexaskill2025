@@ -1,0 +1,68 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PlayStreamIntent",
+          "samples": [
+            "let\u0027s play",
+            "to begin",
+            "to start",
+            "to play",
+            "to start playing",
+            "to begin playing"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AboutIntent",
+          "samples": [
+            "tell me about whaley",
+            "tell me about whaley radio",
+            "about",
+            "what is this",
+            "tell me about this"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me",
+            "how does this work",
+            "what should i do"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
